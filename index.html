@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Willian Fernandes</title>
+
+    <!-- fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- menu de navegação fixo no topo -->
+    <header id="header">
+        <nav class="nav-container">
+
+            <span class="nav-logo">WF</span>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+                <li><a href="#formacao" class="nav-link">Formação</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="nav-acoes">
+                <!-- botão de tema claro/escuro -->
+                <button id="temaBtn" aria-label="Alternar tema">🌙</button>
+
+                <!-- botão hamburguer pra mobile -->
+                <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- seção sobre mim -->
+    <section id="sobre" class="secao secao-sobre">
+
+        <span class="secao-tag">01 — Sobre Mim</span>
+
+        <div class="sobre-conteudo">
+            <div class="sobre-texto">
+                <h1 class="titulo-hero">
+                    <span id="nomeDigitado"></span>
+                </h1>
+
+                <p class="sobre-desc">
+                    Sou estudante de Tecnologia e curto bastante
+                    <strong>desenvolvimento web</strong>, programação e design de interfaces.
+                </p>
+
+                <p class="sobre-desc">
+                    Nos tempos livres tô nos <strong>jogos eletrônicos</strong>,
+                    na academia, andando de bicicleta ou assistindo
+                    <strong>Fórmula 1</strong>.
+                </p>
+
+                <!-- tags das tecnologias que estou estudando -->
+                <div class="tags-row">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Figma</span>
+                </div>
+            </div>
+
+            <!-- avatar decorativo -->
+            <!-- Área visual da seção Sobre Mim -->
+<div class="sobre-visual">
+
+    <!-- Avatar -->
+    <div class="avatar-box">
+        <img
+            src="img/avatar.jpg"
+            alt="Foto de Willian Fernandes"
+            class="avatar-img">
+    </div>
+
+    <!-- Elemento decorativo -->
+    <div class="deco-circulo"></div>
+
+</div>  
+
+        <!-- seta pra ir pra próxima seção -->
+        <a href="#formacao" class="seta-scroll" aria-label="Ir para Formação">↓</a>
+
+    </section>
+
+
+    <!-- seção formação -->
+    <section id="formacao" class="secao secao-formacao">
+
+        <span class="secao-tag">02 — Formação</span>
+        <h2 class="secao-titulo">Educação &amp; <em>Cursos</em></h2>
+
+        <div class="formacao-grid">
+
+            <!-- ensino superior -->
+            <div class="formacao-bloco">
+                <div class="formacao-icone">🎓</div>
+                <div>
+                    <h3>Tecnólogo</h3>
+                    <p class="formacao-sub">Cursando</p>
+                    <ul class="formacao-lista">
+                        <li>Análise e Desenvolvimento de Sistemas — <strong>UNINTER</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- cursos técnicos -->
+            <div class="formacao-bloco">
+                <div class="formacao-icone">💻</div>
+                <div>
+                    <h3>Cursos Técnicos</h3>
+                    <p class="formacao-sub">Cursando</p>
+                    <ul class="formacao-lista">
+                        <li>HTML5 e CSS3</li>
+                        <li>Lógica de Programação</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- idiomas -->
+            <div class="formacao-bloco">
+                <div class="formacao-icone">🌐</div>
+                <div>
+                    <h3>Idiomas</h3>
+                    <p class="formacao-sub">Comunicação</p>
+                    <ul class="formacao-lista">
+                        <li>Português — <strong>Nativo</strong></li>
+                        <li>Inglês — <strong>Básico</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- seção portfólio -->
+    <section id="portfolio" class="secao secao-portfolio">
+
+        <span class="secao-tag">03 — Portfólio</span>
+        <h2 class="secao-titulo">Projetos <em>Realizados</em></h2>
+
+        <div class="cards-grid">
+
+            <!-- projeto 1 -->
+
+<article class="card">
+
+```
+<img
+    src="img/projeto1.png"
+    alt="Sistema Clínica Vida+"
+    class="card-img"
+>
+
+<div class="card-topo">
+    <span class="card-num">01</span>
+
+    <div class="card-techs">
+        <span class="tech">Python</span>
+        <span class="tech">Scrum</span>
+    </div>
+</div>
+
+<h3 class="card-titulo">
+    Sistema Clínica Vida+
+</h3>
+
+<p class="card-desc">
+    Projeto acadêmico envolvendo Python,
+    metodologia Scrum, Casos de Uso
+    e análise de estatísticas.
+</p>
+
+<div class="card-rodape">
+    <span class="card-tipo">
+        Projeto Acadêmico
+    </span>
+</div>
+```
+
+</article>
+
+<!-- projeto 2 -->
+
+<article class="card card-destaque">
+
+```
+<img
+    src="img/projeto2.png"
+    alt="Site bikes"
+    class="card-img"
+>
+
+<div class="card-topo">
+    <span class="card-num">02</span>
+
+    <div class="card-techs">
+        <span class="tech">HTML</span>
+        <span class="tech">CSS</span>
+        <span class="tech">JavaScript</span>
+    </div>
+</div>
+
+<h3 class="card-titulo">
+    Site bike shop
+</h3>
+
+<p class="card-desc">
+    Site moderno inspirado na BMW Motorrad,
+    desenvolvido com foco em responsividade,
+    experiência visual e navegação intuitiva.
+</p>
+
+<div class="card-rodape">
+    <span class="card-tipo">
+        Web Design
+    </span>
+</div>
+```
+
+</article>
+
+
+            <!-- projeto 3 -->
+            <article class="card">
+    <img
+        src="img/projeto3.jpeg"
+        alt="Projeto Delivery"
+        class="card-img"
+    >
+
+    <h3 class="card-titulo">Projeto Delivery</h3>
+
+    <p class="card-desc">
+        Protótipo desenvolvido no Figma com foco em UX/UI.
+    </p>
+</article>
+
+        </div>
+
+    </section>
+
+
+    <!-- seção contato com formulário -->
+    <section id="contato" class="secao secao-contato">
+
+        <span class="secao-tag">04 — Contato</span>
+        <h2 class="secao-titulo">Vamos <em>Conversar?</em></h2>
+        <p class="contato-sub">Preencha o formulário e entrarei em contato em breve.</p>
+
+        <!-- formulário validado pelo script.js -->
+        <form id="formContato" class="form" novalidate>
+
+            <div class="form-grupo">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: João Silva" autocomplete="off">
+                <span class="erro" id="erroNome"></span>
+            </div>
+
+            <div class="form-grupo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Ex: joao@email.com" autocomplete="off">
+                <span class="erro" id="erroEmail"></span>
+            </div>
+
+            <div class="form-grupo">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." rows="5"></textarea>
+                <span class="erro" id="erroMensagem"></span>
+            </div>
+
+            <button type="submit" class="btn-enviar">
+                Enviar mensagem <span class="btn-seta">→</span>
+            </button>
+
+        </form>
+
+        <!-- modal que aparece depois de enviar o formulário -->
+        <div id="modal" class="modal" role="dialog" aria-modal="true">
+            <div class="modal-caixa">
+                <div class="modal-icone">✓</div>
+                <p id="modalMsg">Mensagem enviada com sucesso!</p>
+                <button id="modalFechar" class="btn-enviar">Fechar</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- rodapé simples -->
+    <footer class="rodape">
+        <p>© 2025 Willian Fernandes — Desenvolvido com HTML5, CSS3 e JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
